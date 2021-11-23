@@ -1,1 +1,1 @@
-For OSD2019 documentation
+For OSD2019 documentation as used by the sampling scientists
