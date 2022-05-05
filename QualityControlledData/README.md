@@ -5,18 +5,4 @@ All of the data collected here are are taken from the logsheets that were provid
 - **Version 1**: Before copying the logsheet values to these version 1 spreadsheets, a certain amount of QC was performed: where stations returned values in units that were not as requested in the SOPs and the OSD Handbook, we added a comment in the flag columns of the data spreadsheets to highlight this fact. The units themselves are included as separate columns along with each measured parameter in the data spreadsheets and are also explained in the metadata spreadsheets. Note that we did not perform any unit conversions, nor did we do any checking for potentially suspect values: the values here are exactly as provided on the logsheets from each station. 
 - **Version 2**: In this case, for values reported by stations that were recorded in different units to those requested, where possible a unit conversion has been carried out NEED TO SAY WHAT HCMR DID 
 
-The data files provided here are:
-* CSV files with the collected environmental, event, and omics data (being [ENA accession numbers](https://www.ebi.ac.uk/ena/browser/home)):  
-    * The first version of the OSD19 data file [OSD19Data_version1.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_version1.csv) - published on 29/11/2021.  
-    * An updated version - published in January with minor updates in April 2022 - where data flags were added to mitigate confusion about the units, and character malformations were corrected. This version is provided in two forms 
-      * [OSD19Data_HumanReadable_version2.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_HumanReadable_version2.csv) which is a version that humans will find more comfortable to read
-      * [OSD19Data_MachineReadable_version2.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_MachineReadable_version2.csv) which is a version being necessary to generate the turtle file
-* CSV files with the metadata to accompany these data files
-    * [OSD19Metadata_version1.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Metadata_version1.csv) 
-    * [OSD19Metadata_HumanReadable_version2.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Metadata_HumanReadable_version2.csv) to accompany the equivalently-named Data file
-    * [OSD19Metadata_MachineReadable_version2.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Metadata_MachineReadable_version2.csv), to accompany the equivalently-named Data file
-* A turtle file with the collected environmental, event and omics data described in RDF triples: [OSD19Data_MachineReadable_version2.ttl](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_MachineReadable_version2.ttl).  
-This file was generated using [this template](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_MachineReadable_version2.ldt) with [PySUByT](https://github.com/vliz-be-opsci/pysubyt).
-* The station information spreadsheet
-
 Scans of the original logsheets can be downloaded from the Marine Data Archive: [click here](https://mda.vliz.be/directlink.php?fid=VLIZ_00000615_625ebbe05686f491055780).
