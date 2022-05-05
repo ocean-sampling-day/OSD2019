@@ -6,5 +6,5 @@ The documentation provided here includes
 - The OSD Handbook (from 2016 still applies in 2019)
 - The two sampling protocols used by OSD
 - Definition of the OSD metadata and instructions that were provided to the sampling scientists for filling in their logsheets
-- ABS permit information, MTA permit template, and legal permits procedures
+- ABS permit information, MTA permit template, the data policy, and legal permits procedures
 - The list of stations that participated in OSD 
