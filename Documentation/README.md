@@ -3,7 +3,7 @@ Also provided via this Github space are the [OSD2014 data](https://github.com/oc
 
 The documentation provided here includes
 
-The OSD Handbook (from 2016 still applies in 2019)
-The two sampling protocols used by OSD
-Instructions that were provided to the sampling scientists for filling in their logsheets
-The data policy, permits and procedures
+- The OSD Handbook (from 2016 still applies in 2019)
+- The two sampling protocols used by OSD
+- Instructions that were provided to the sampling scientists for filling in their logsheets
+- The data policy, permits and procedures
