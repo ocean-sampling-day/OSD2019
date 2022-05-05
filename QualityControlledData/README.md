@@ -1,12 +1,9 @@
-These are the (meta)data and documentation files for Ocean Sampling Day 2019. The metadata record for this event is published in the IMIS datasets catalogue: [OSD2019-record](https://www.vliz.be/en/imis?module=dataset&dasid=7917). The same data can be obtained as a direct download from that IMIS record, but a more annotated set of data (in particular the machine/developer-readable versions) are provided here.
+These are the (meta)data for Ocean Sampling Day 2019. The metadata record for this event is published in the IMIS datasets catalogue: [OSD2019-record](https://www.vliz.be/en/imis?module=dataset&dasid=7917). The same data can be obtained as a direct download from that IMIS record, but a more annotated set of data (in particular the machine/developer-readable versions) are provided here.
 Also provided via this Github space are the [OSD2014 data](https://github.com/ocean-sampling-day/OSD2014) and [OSD2018 data](https://github.com/ocean-sampling-day/OSD2018).
 
-The documentation provided includes
-
-* The OSD Handbook (from 2016 still applies in 2019)
-* The two sampling protocols used by OSD
-* Instructions that were provided to the sampling scientists for filling in their logsheets
-* The data policy, permits and procedures
+All of the data collected here are are taken from the logsheets that were provided by each sampling station. Two versions of those same data are presented here:
+- **Version 1**: Before copying the logsheet values to these version 1 spreadsheets, a certain amount of QC was performed: where stations returned values in units that were not as requested in the SOPs and the OSD Handbook, we added a comment in the flag columns of the data spreadsheets to highlight this fact. The units themselves are included as separate columns along with each measured parameter in the data spreadsheets and are also explained in the metadata spreadsheets. Note that we did not perform any unit conversions, nor did we do any checking for potentially suspect values: the values here are exactly as provided on the logsheets from each station. 
+- **Version 2**: In this case, for values reported by stations that were recorded in different units to those requested, where possible a unit conversion has been carried out NEED TO SAY WHAT HCMR DID 
 
 The data files provided here are:
 * CSV files with the collected environmental, event, and omics data (being [ENA accession numbers](https://www.ebi.ac.uk/ena/browser/home)):  
@@ -21,7 +18,5 @@ The data files provided here are:
 * A turtle file with the collected environmental, event and omics data described in RDF triples: [OSD19Data_MachineReadable_version2.ttl](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_MachineReadable_version2.ttl).  
 This file was generated using [this template](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/OSD19Data_MachineReadable_version2.ldt) with [PySUByT](https://github.com/vliz-be-opsci/pysubyt).
 * The station information spreadsheet
-
-All of the data collected in the Data sheets are taken from the logsheets that were provided by each sampling station. A certain amount of QC was performed on the values in the logsheets: where stations returned values in units that were not as requested in the SOPs and the OSD Handbook, we added a comment in the flag columns of the data spreadsheets to highlight this fact. The units themselves are included as separate columns along with each measured parameter in the data spreadsheets and are also explained in the metadata spreadsheets. Note that we did not perform any unit conversions, nor did we do any checking for potentially suspect values: the values here are exactly as provided on the logsheets from each station.
 
 Scans of the original logsheets can be downloaded from the Marine Data Archive: [click here](https://mda.vliz.be/directlink.php?fid=VLIZ_00000615_625ebbe05686f491055780).
