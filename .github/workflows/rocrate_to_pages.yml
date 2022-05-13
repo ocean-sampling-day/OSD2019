@@ -62,4 +62,5 @@ jobs:
         with:                                 
           token: ${{ secrets.GITHUB_TOKEN }}
           jekyll_src: .
+          baseurl: OSD2019
  
