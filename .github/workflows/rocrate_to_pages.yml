@@ -69,5 +69,5 @@ jobs:
         with:                                 
           token: ${{ secrets.GITHUB_TOKEN }}
           jekyll_src: . 
-          jekyll_build_options: "--config _config.yml repo.yml"
+          jekyll_build_options: "--config _config.yml,repo.yml"
  
