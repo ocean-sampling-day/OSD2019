@@ -7,4 +7,4 @@ The data files provided here are:
     * [OSD19Metadata_MachineReadable_version1.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/QualityControlledData/version1/OSD19Metadata_MachineReadable_version1.csv), to accompany the equivalently-named Data file
 * A turtle file with the collected environmental, event and omics data described in RDF triples: [OSD19Data_MachineReadable_version1.ttl](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/QualityControlledData/version1/OSD19Data_MachineReadable_version1.ttl).  
 This file was generated using [this template](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/QualityControlledData/version1/OSD19Data_MachineReadable_version1.ldt) with [PySUByT](https://github.com/vliz-be-opsci/pysubyt).
-* The station information spreadsheet
+
