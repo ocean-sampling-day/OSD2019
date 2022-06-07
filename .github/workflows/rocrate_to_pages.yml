@@ -23,7 +23,7 @@ jobs:
       
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@933aeff5650803d8665e2d22243bb46ac0382529
+        uses: vliz-be-opsci/rocrate-to-html@3c53eea11ad131d8a3d226f4d03ece457fd051a0
  
       # Create config overrride file for
       # this repo's name
