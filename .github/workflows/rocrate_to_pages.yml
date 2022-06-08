@@ -15,44 +15,49 @@ jobs:
       
       # Get a shared theme from a repo and put it
       # into /pages-theme/ folder
-      - name: Get Shared Theme
-        uses: actions/checkout@v3
-        with:
-          repository: ocean-sampling-day/pages-theme 
-          path: ./unicornpages
+      #- name: Get Shared Theme
+      #  uses: actions/checkout@v3
+      #  with:
+      #    repository: ocean-sampling-day/pages-theme 
+      #    path: ./unicornpages
       
       # Build the preview.html file from the rocrate.json
       - name: Build Preview HTML
-        uses: vliz-be-opsci/rocrate-to-html@ee789b4f20e61abbb56a0c71a8ac89ac1c5f377f
+        uses: vliz-be-opsci/rocrate-to-html@809ad0ebd462559baa84148c8c557f8a3bc6bf8b
+ 
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./unicornpages 
+      # Create config overrride file for
+      # this repo's name
+      #- name: Create config
+      #  run: |
+      #    echo 'baseurl: OSD2019' > ./unicornpages/repo.yml 
+      #  shell: bash
  
       # Create config overrride file for
       # this repo's name
-      - name: Create config
-        run: |
-          echo 'baseurl: OSD2019' > ./unicornpages/repo.yml 
-        shell: bash
- 
-      # Create config overrride file for
-      # this repo's name
-      - name: Create config ver2
-        run: |
-          echo 'baseurl: OSD2019' > repo.yml 
-        shell: bash
+      #- name: Create config ver2
+      #  run: |
+      #    echo 'baseurl: OSD2019' > repo.yml 
+      #  shell: bash
         
       # Cache jekyll install to speed up builds
-      - name: Cache Action
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+      #- name: Cache Action
+      #  uses: actions/cache@v3
+      #  with:
+      #    path: vendor/bundle
+      #    key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+      #    restore-keys: |
+      #      ${{ runner.os }}-gems-
       
       # Build and deploy to GH-pages
-      - name: Jekyll Build  
-        uses: helaili/jekyll-action@2.3.1     
-        with:                                 
-          token: ${{ secrets.GITHUB_TOKEN }}
-          jekyll_src: ./unicornpages
-          jekyll_build_options: "--config _config.yml,repo.yml"
+      #- name: Jekyll Build  
+      #  uses: helaili/jekyll-action@2.3.1     
+      #  with:                                 
+      #    token: ${{ secrets.GITHUB_TOKEN }}
+      #    jekyll_src: ./unicornpages
+      #    jekyll_build_options: "--config _config.yml,repo.yml"
  
