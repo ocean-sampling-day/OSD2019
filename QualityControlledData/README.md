@@ -8,3 +8,5 @@ All of the data collected here are are taken from the logsheets that were provid
 Scans of the original logsheets can be downloaded from the Marine Data Archive: [click here](https://mda.vliz.be/directlink.php?fid=VLIZ_00000615_625ebbe05686f491055780).
 
 A CSV file containing the ENA Sample and Run accession numbers, the sample title (aka SampleID), and the target gene (being 16S, 18S, or MG=metagenomics) is provided here as [OSD2019_AccessionNumbers.csv](https://raw.githubusercontent.com/ocean-sampling-day/OSD2019/main/QualityControlledData/OSD2019_AccessionNumbers.csv).
+
+Note: at this point in time (Sept 2022) the 18S sequences in ENA are being updated, and hence the accession numbers are not yet recorded in the various spreadsheets provided here.
